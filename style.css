@@ -1,1 +1,59 @@
-#CSS
+html {
+    box-sizing: border-box;
+
+}
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+.wrapper {
+    max-width: 1060px;
+    margin: 0 auto;
+}
+.header {
+    background-color: aqua;
+    display:flex;
+  justify-content:space-around;
+  align-items:center;
+  flex-wrap:wrap;
+  padding: 10px;
+}
+body {
+    font-family: 'lato';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: normal;
+    color: black;
+}
+.header_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.header_list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+
+}
+.header_item {
+    
+    margin-right: 140px;
+
+}
+.header_item:last-child{
+    margin-right: 0;
+}
+.nav-link{
+    font-size: 20px;
+    line-height: 30px;
+    color: cornflowerblue;
+    text-decoration: none;
+}
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: center;
+}
